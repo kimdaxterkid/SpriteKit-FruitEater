@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D14F6CA1E3188BC0075837C /* ItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D14F6C91E3188BC0075837C /* ItemController.swift */; };
+		B7281D941E3127870037EA09 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7281D931E3127870037EA09 /* Player.swift */; };
+		B76087C31E2FC04D00CE91FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76087C21E2FC04D00CE91FA /* AppDelegate.swift */; };
+		B76087C71E2FC04D00CE91FA /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = B76087C61E2FC04D00CE91FA /* Actions.sks */; };
+		B76087CB1E2FC04D00CE91FA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76087CA1E2FC04D00CE91FA /* GameViewController.swift */; };
+		B76087CE1E2FC04D00CE91FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76087CC1E2FC04D00CE91FA /* Main.storyboard */; };
+		B76087D01E2FC04D00CE91FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76087CF1E2FC04D00CE91FA /* Assets.xcassets */; };
+		B76087D31E2FC04D00CE91FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76087D11E2FC04D00CE91FA /* LaunchScreen.storyboard */; };
+		B76087DE1E2FC04D00CE91FA /* Fruit_EaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76087DD1E2FC04D00CE91FA /* Fruit_EaterTests.swift */; };
+		B76087E91E2FC04D00CE91FA /* Fruit_EaterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76087E81E2FC04D00CE91FA /* Fruit_EaterUITests.swift */; };
+		B76087F81E2FC0B200CE91FA /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = B76087F71E2FC0B200CE91FA /* MainMenu.sks */; };
+		B76087FE1E2FC30300CE91FA /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76087FD1E2FC30300CE91FA /* MainMenuScene.swift */; };
+		B76088001E2FC39800CE91FA /* GamePlayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B76087FF1E2FC39800CE91FA /* GamePlayScene.sks */; };
+		B76088021E2FC43700CE91FA /* GamePlaySceneClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76088011E2FC43700CE91FA /* GamePlaySceneClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B76087DA1E2FC04D00CE91FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B76087B71E2FC04C00CE91FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B76087BE1E2FC04D00CE91FA;
+			remoteInfo = "Fruit Eater";
+		};
+		B76087E51E2FC04D00CE91FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B76087B71E2FC04C00CE91FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B76087BE1E2FC04D00CE91FA;
+			remoteInfo = "Fruit Eater";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6D14F6C91E3188BC0075837C /* ItemController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemController.swift; sourceTree = "<group>"; };
+		B7281D931E3127870037EA09 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		B76087BF1E2FC04D00CE91FA /* Fruit Eater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fruit Eater.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76087C21E2FC04D00CE91FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B76087C61E2FC04D00CE91FA /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		B76087CA1E2FC04D00CE91FA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		B76087CD1E2FC04D00CE91FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B76087CF1E2FC04D00CE91FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B76087D21E2FC04D00CE91FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B76087D41E2FC04D00CE91FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B76087D91E2FC04D00CE91FA /* Fruit EaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fruit EaterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76087DD1E2FC04D00CE91FA /* Fruit_EaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit_EaterTests.swift; sourceTree = "<group>"; };
+		B76087DF1E2FC04D00CE91FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B76087E41E2FC04D00CE91FA /* Fruit EaterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fruit EaterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76087E81E2FC04D00CE91FA /* Fruit_EaterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit_EaterUITests.swift; sourceTree = "<group>"; };
+		B76087EA1E2FC04D00CE91FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B76087F71E2FC0B200CE91FA /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		B76087FD1E2FC30300CE91FA /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		B76087FF1E2FC39800CE91FA /* GamePlayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GamePlayScene.sks; sourceTree = "<group>"; };
+		B76088011E2FC43700CE91FA /* GamePlaySceneClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePlaySceneClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B76087BC1E2FC04D00CE91FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76087D61E2FC04D00CE91FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76087E11E2FC04D00CE91FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D14F6C81E31887F0075837C /* Item Controller Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6D14F6C91E3188BC0075837C /* ItemController.swift */,
+			);
+			name = "Item Controller Classes";
+			sourceTree = "<group>";
+		};
+		B7281D921E31274C0037EA09 /* Player Class */ = {
+			isa = PBXGroup;
+			children = (
+				B7281D931E3127870037EA09 /* Player.swift */,
+			);
+			name = "Player Class";
+			sourceTree = "<group>";
+		};
+		B76087B61E2FC04C00CE91FA = {
+			isa = PBXGroup;
+			children = (
+				B76087C11E2FC04D00CE91FA /* Fruit Eater */,
+				B76087DC1E2FC04D00CE91FA /* Fruit EaterTests */,
+				B76087E71E2FC04D00CE91FA /* Fruit EaterUITests */,
+				B76087C01E2FC04D00CE91FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B76087C01E2FC04D00CE91FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B76087BF1E2FC04D00CE91FA /* Fruit Eater.app */,
+				B76087D91E2FC04D00CE91FA /* Fruit EaterTests.xctest */,
+				B76087E41E2FC04D00CE91FA /* Fruit EaterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B76087C11E2FC04D00CE91FA /* Fruit Eater */ = {
+			isa = PBXGroup;
+			children = (
+				B76087F91E2FC0C300CE91FA /* Classes */,
+				B76087F61E2FC06E00CE91FA /* Scenes */,
+				B76087C21E2FC04D00CE91FA /* AppDelegate.swift */,
+				B76087C61E2FC04D00CE91FA /* Actions.sks */,
+				B76087CA1E2FC04D00CE91FA /* GameViewController.swift */,
+				B76087CC1E2FC04D00CE91FA /* Main.storyboard */,
+				B76087CF1E2FC04D00CE91FA /* Assets.xcassets */,
+				B76087D11E2FC04D00CE91FA /* LaunchScreen.storyboard */,
+				B76087D41E2FC04D00CE91FA /* Info.plist */,
+			);
+			path = "Fruit Eater";
+			sourceTree = "<group>";
+		};
+		B76087DC1E2FC04D00CE91FA /* Fruit EaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				B76087DD1E2FC04D00CE91FA /* Fruit_EaterTests.swift */,
+				B76087DF1E2FC04D00CE91FA /* Info.plist */,
+			);
+			path = "Fruit EaterTests";
+			sourceTree = "<group>";
+		};
+		B76087E71E2FC04D00CE91FA /* Fruit EaterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B76087E81E2FC04D00CE91FA /* Fruit_EaterUITests.swift */,
+				B76087EA1E2FC04D00CE91FA /* Info.plist */,
+			);
+			path = "Fruit EaterUITests";
+			sourceTree = "<group>";
+		};
+		B76087F61E2FC06E00CE91FA /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B76087F71E2FC0B200CE91FA /* MainMenu.sks */,
+				B76087FF1E2FC39800CE91FA /* GamePlayScene.sks */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		B76087F91E2FC0C300CE91FA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6D14F6C81E31887F0075837C /* Item Controller Classes */,
+				B7281D921E31274C0037EA09 /* Player Class */,
+				B76087FA1E2FC0CD00CE91FA /* Scene Classes */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		B76087FA1E2FC0CD00CE91FA /* Scene Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B76087FD1E2FC30300CE91FA /* MainMenuScene.swift */,
+				B76088011E2FC43700CE91FA /* GamePlaySceneClass.swift */,
+			);
+			name = "Scene Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B76087BE1E2FC04D00CE91FA /* Fruit Eater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B76087ED1E2FC04D00CE91FA /* Build configuration list for PBXNativeTarget "Fruit Eater" */;
+			buildPhases = (
+				B76087BB1E2FC04D00CE91FA /* Sources */,
+				B76087BC1E2FC04D00CE91FA /* Frameworks */,
+				B76087BD1E2FC04D00CE91FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fruit Eater";
+			productName = "Fruit Eater";
+			productReference = B76087BF1E2FC04D00CE91FA /* Fruit Eater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B76087D81E2FC04D00CE91FA /* Fruit EaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B76087F01E2FC04D00CE91FA /* Build configuration list for PBXNativeTarget "Fruit EaterTests" */;
+			buildPhases = (
+				B76087D51E2FC04D00CE91FA /* Sources */,
+				B76087D61E2FC04D00CE91FA /* Frameworks */,
+				B76087D71E2FC04D00CE91FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B76087DB1E2FC04D00CE91FA /* PBXTargetDependency */,
+			);
+			name = "Fruit EaterTests";
+			productName = "Fruit EaterTests";
+			productReference = B76087D91E2FC04D00CE91FA /* Fruit EaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B76087E31E2FC04D00CE91FA /* Fruit EaterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B76087F31E2FC04D00CE91FA /* Build configuration list for PBXNativeTarget "Fruit EaterUITests" */;
+			buildPhases = (
+				B76087E01E2FC04D00CE91FA /* Sources */,
+				B76087E11E2FC04D00CE91FA /* Frameworks */,
+				B76087E21E2FC04D00CE91FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B76087E61E2FC04D00CE91FA /* PBXTargetDependency */,
+			);
+			name = "Fruit EaterUITests";
+			productName = "Fruit EaterUITests";
+			productReference = B76087E41E2FC04D00CE91FA /* Fruit EaterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B76087B71E2FC04C00CE91FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Taiwen Jin";
+				TargetAttributes = {
+					B76087BE1E2FC04D00CE91FA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = C34536CJNF;
+						ProvisioningStyle = Automatic;
+					};
+					B76087D81E2FC04D00CE91FA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = C34536CJNF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B76087BE1E2FC04D00CE91FA;
+					};
+					B76087E31E2FC04D00CE91FA = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = C34536CJNF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B76087BE1E2FC04D00CE91FA;
+					};
+				};
+			};
+			buildConfigurationList = B76087BA1E2FC04C00CE91FA /* Build configuration list for PBXProject "Fruit Eater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B76087B61E2FC04C00CE91FA;
+			productRefGroup = B76087C01E2FC04D00CE91FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B76087BE1E2FC04D00CE91FA /* Fruit Eater */,
+				B76087D81E2FC04D00CE91FA /* Fruit EaterTests */,
+				B76087E31E2FC04D00CE91FA /* Fruit EaterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B76087BD1E2FC04D00CE91FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76087CE1E2FC04D00CE91FA /* Main.storyboard in Resources */,
+				B76087D01E2FC04D00CE91FA /* Assets.xcassets in Resources */,
+				B76088001E2FC39800CE91FA /* GamePlayScene.sks in Resources */,
+				B76087D31E2FC04D00CE91FA /* LaunchScreen.storyboard in Resources */,
+				B76087F81E2FC0B200CE91FA /* MainMenu.sks in Resources */,
+				B76087C71E2FC04D00CE91FA /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76087D71E2FC04D00CE91FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76087E21E2FC04D00CE91FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B76087BB1E2FC04D00CE91FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76087FE1E2FC30300CE91FA /* MainMenuScene.swift in Sources */,
+				B76087CB1E2FC04D00CE91FA /* GameViewController.swift in Sources */,
+				B76087C31E2FC04D00CE91FA /* AppDelegate.swift in Sources */,
+				B7281D941E3127870037EA09 /* Player.swift in Sources */,
+				6D14F6CA1E3188BC0075837C /* ItemController.swift in Sources */,
+				B76088021E2FC43700CE91FA /* GamePlaySceneClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76087D51E2FC04D00CE91FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76087DE1E2FC04D00CE91FA /* Fruit_EaterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B76087E01E2FC04D00CE91FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76087E91E2FC04D00CE91FA /* Fruit_EaterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B76087DB1E2FC04D00CE91FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B76087BE1E2FC04D00CE91FA /* Fruit Eater */;
+			targetProxy = B76087DA1E2FC04D00CE91FA /* PBXContainerItemProxy */;
+		};
+		B76087E61E2FC04D00CE91FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B76087BE1E2FC04D00CE91FA /* Fruit Eater */;
+			targetProxy = B76087E51E2FC04D00CE91FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B76087CC1E2FC04D00CE91FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B76087CD1E2FC04D00CE91FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B76087D11E2FC04D00CE91FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B76087D21E2FC04D00CE91FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B76087EB1E2FC04D00CE91FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B76087EC1E2FC04D00CE91FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B76087EE1E2FC04D00CE91FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C34536CJNF;
+				INFOPLIST_FILE = "Fruit Eater/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taiwenjin.Fruit-Eater";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B76087EF1E2FC04D00CE91FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C34536CJNF;
+				INFOPLIST_FILE = "Fruit Eater/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taiwenjin.Fruit-Eater";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B76087F11E2FC04D00CE91FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C34536CJNF;
+				INFOPLIST_FILE = "Fruit EaterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taiwenjin.Fruit-EaterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fruit Eater.app/Fruit Eater";
+			};
+			name = Debug;
+		};
+		B76087F21E2FC04D00CE91FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C34536CJNF;
+				INFOPLIST_FILE = "Fruit EaterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taiwenjin.Fruit-EaterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fruit Eater.app/Fruit Eater";
+			};
+			name = Release;
+		};
+		B76087F41E2FC04D00CE91FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = C34536CJNF;
+				INFOPLIST_FILE = "Fruit EaterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taiwenjin.Fruit-EaterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Fruit Eater";
+			};
+			name = Debug;
+		};
+		B76087F51E2FC04D00CE91FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = C34536CJNF;
+				INFOPLIST_FILE = "Fruit EaterUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.taiwenjin.Fruit-EaterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Fruit Eater";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B76087BA1E2FC04C00CE91FA /* Build configuration list for PBXProject "Fruit Eater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76087EB1E2FC04D00CE91FA /* Debug */,
+				B76087EC1E2FC04D00CE91FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B76087ED1E2FC04D00CE91FA /* Build configuration list for PBXNativeTarget "Fruit Eater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76087EE1E2FC04D00CE91FA /* Debug */,
+				B76087EF1E2FC04D00CE91FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B76087F01E2FC04D00CE91FA /* Build configuration list for PBXNativeTarget "Fruit EaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76087F11E2FC04D00CE91FA /* Debug */,
+				B76087F21E2FC04D00CE91FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B76087F31E2FC04D00CE91FA /* Build configuration list for PBXNativeTarget "Fruit EaterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B76087F41E2FC04D00CE91FA /* Debug */,
+				B76087F51E2FC04D00CE91FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B76087B71E2FC04C00CE91FA /* Project object */;
+}
